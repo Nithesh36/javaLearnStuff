@@ -21,7 +21,9 @@ public class BufferWriterDemo {
    BufferedWriter bw=new BufferedWriter(writer1);
    bw.write("nites");
    bw.write("\n");
+   bw.newLine();
    bw.write("se");
+ 
    bw.close();
    if( new BufferedReader(new FileReader("BufferWriterFile.txt")).lines().count()>0) {
    System.out.println("file writing done");
