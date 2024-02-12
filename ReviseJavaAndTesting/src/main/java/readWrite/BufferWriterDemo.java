@@ -17,7 +17,7 @@ public class BufferWriterDemo {
 		 * if we did not mention path file not already there 
 		 * it will create at Root level in project
   */
-   FileWriter writer1=new FileWriter("BufferWriterFile.txt");
+   FileWriter writer1=new FileWriter("BufferWriterFile.txt",true);
    BufferedWriter bw=new BufferedWriter(writer1);
    bw.write("nites");
    bw.write("\n");
