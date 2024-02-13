@@ -1,0 +1,15 @@
+
+Persistent Systems Interview Questions for #QA / #SDET role
+1. Write a program for reversing words?
+2. Write a program to find duplicate characters in a string without using a Hashmap?
+3. How you are handling exceptions in your framework?
+4. Write a program to throw your own exceptions?
+5. Is HashMap synchronized or not?
+6. what are the oops concepts used in your framework?
+7. How to handle data tables in the framework?
+8. How to handle stale element exceptions?
+9. what are authorizations and authentication?
+Authentication and authorization are two vital information security processes that administrators use to protect systems and information. Authentication verifies the identity of a user or service, and authorization determines their access rights.
+10. what is the difference between PUT, POST, and PATCH?
+PUT- This operation changes a record's information in the database. POST - This operation creates a new record in the database. PATCH - This operation updates an existing resource, but does not require sending the entire body with the request.
+11. How about grouping smoke tests?

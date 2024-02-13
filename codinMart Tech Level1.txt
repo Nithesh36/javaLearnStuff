@@ -1,0 +1,47 @@
+check status code and Response body single object
+pm.response.json()
+
+pm.test("status code",()=>{
+pm.response.to.have.statusCode(200)
+pm.response.json().to.have.contains("cartAdded")
+}
+)
+
+
+{"cartAdded":"yes"
+
+}
+
+
+mulitple window Handling
+
+
+Set<String>windows=driver.getWindowhandles();
+
+for(String myWindow:windows){
+if(driver.switchTo().window(myWindow).getTitle("google")
+driver.switchTo().window(myWindow)
+}
+}
+
+
+
+mulitple window Handling
+Verification and validation
+
+post(can do updation? (yes we do)) vs put
+
+why software testing is required 
+
+Software product is 100 percent bug free
+Authentication vs authorization
+Headers usage in Postman(Mistake i did  header i have said queryParam we can include in header)
+PreRequiste Script and test
+Torch Testcase
+addTo Cart Testcase-(Need to  get  Elaborated requirment from Interview)-need practice
+
+cucumber Dry run
+Cucumber testRunner components(parts)
+do u know non functioal testing(performance Testing)
+
+

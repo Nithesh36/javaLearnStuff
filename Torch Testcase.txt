@@ -1,0 +1,28 @@
+Torch Feature Testcase
+
+To check User can able to turn on the torch Light
+To check user can able to turn off torch light
+To check user can able to chare thier battery if Battery is low
+To check after Battery charged user able to do turn on and off
+To check user able to increase visibility range
+To check user able to decrease visibility range
+To check user able to do wireless charing
+To check user user able to change torch ligght color or not
+To chek user able to change Battery  
+To  check user is having anger to put Torch light someWhere
+To check howMuch time taking for Battery charge
+To check battery got full within timeFrame(30 min)
+
+User experience
+
+torch light will turn on using climate
+
+using buttons they can switch to normal torch like 
+
+
+
+
+
+
+
+

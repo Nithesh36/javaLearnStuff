@@ -1,0 +1,18 @@
+Amazon Add to cart Function Testcase
+
+To check user can able to select the product  
+
+To check user can able to click addTOcart after  Selected the product
+To check Product is added in cart with Default Qty
+
+To check user can able to increase and decrease the qty
+
+To check user user  can able to perform add to cart actvity from main page
+
+To check user can able to remove product from cart
+
+To check user can able to add multiple products in the  cart
+
+
+To check user can able to increase or decrese Qty for individual product wise
+

@@ -1,0 +1,12 @@
+Cucumber one method depend on another method how will u do
+
+
+Let say  we have created  5 applications  how to write these Loan number CRN into Text file
+
+
+how do u schdule a script witout jenkins
+
+i want to take screenshot and mark 5 input field color red ,two are blue how to do that
+
+
+PDF Releated question -comparsion pdf and Reading PDF
