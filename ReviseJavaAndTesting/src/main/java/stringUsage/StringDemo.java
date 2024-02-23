@@ -28,7 +28,7 @@ public class StringDemo  {
 		ar.add(null);
 		System.out.println(ar);
 		
-		HashMap<Integer, String> hashMap = new HashMap<>();
+		HashMap<Integer, String> hashMap = new HashMap<Integer, String>();
 		hashMap.put(3, null);
 		System.out.println(hashMap);
 		System.out.println("demo".indexOf("mo"));
