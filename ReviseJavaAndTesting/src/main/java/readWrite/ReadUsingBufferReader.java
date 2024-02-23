@@ -7,7 +7,7 @@ import java.io.IOException;
 public class ReadUsingBufferReader {
 
 	public static void main(String[] args) throws IOException {
-		String location = "FileOutputStream.txt";
+		String location = "BufferWriterFile.txt";
 		FileReader reader=new FileReader(location);
 		BufferedReader br=new BufferedReader(reader);
 		System.out.println(br.readLine());

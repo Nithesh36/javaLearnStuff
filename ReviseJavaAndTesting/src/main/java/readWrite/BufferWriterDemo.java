@@ -8,27 +8,32 @@ import java.io.IOException;
 
 public class BufferWriterDemo {
 
-	public static void main(String[] 	args) throws IOException {
+	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		
-		/*it will not write  content directly to file (disc) 
-		 * it will lead to high performance
+
+		/*
+		 * it will not write content directly to file (disc) it will lead to high
+		 * performance
 		 * 
-		 * if we did not mention path file not already there 
-		 * it will create at Root level in project
-  */
-   FileWriter writer1=new FileWriter("BufferWriterFile.txt");
-   BufferedWriter bw=new BufferedWriter(writer1);
-   bw.write("nites");
-   bw.write("\n");
-   bw.newLine();
-   bw.write("se");
- 
-   bw.close();
-   if( new BufferedReader(new FileReader("BufferWriterFile.txt")).lines().count()>0) {
-   System.out.println("file writing done");
-   
-   }
+		 * if we did not mention path -if file not exist it will create new file at Root
+		 * level in project
+		 */
+		FileWriter writer1 = new FileWriter("BufferWriterFile.txt", true);
+		BufferedWriter bw = new BufferedWriter(writer1);
+		bw.write(" Ajay");
+		bw.write("\n");
+		bw.newLine();
+		bw.write("kusa");
+
+		bw.close();
+
+		BufferedReader br = new BufferedReader(new FileReader("BufferWriterFile.txt"));
+
+		String line = "";
+		while ((line = br.readLine()) != null) {
+			System.out.println(line);
+		}
+		br.close();
 	}
 
 }
