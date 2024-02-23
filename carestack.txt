@@ -1,0 +1,38 @@
+anargram
+
+reverse a number
+
+joins sql
+
+Patch put
+
+put  can we miss some field in this body 
+Patch can we include all the fields in  body
+
+Soft assertions
+
+Three assertions there
+
+line 1 assertion passed
+line  2 assertion failed
+line 3 assertion failed  test will pass or Fail
+
+(test will pass)
+
+
+status code  (500  meaning)
+
+xpath
+
+Hard assertions
+
+
+project structure
+
+selenium limitations,   disadvantage
+TestNg advantage
+
+
+cypress ui automation  typescript
+
+api restsharp  C#

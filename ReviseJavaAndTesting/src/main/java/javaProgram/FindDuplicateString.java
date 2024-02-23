@@ -19,7 +19,7 @@ public class FindDuplicateString {
 	
 			
 		}
-System.out.println(duplicate);
+System.out.println(duplicate );
 
 	}
 

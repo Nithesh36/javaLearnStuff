@@ -1,0 +1,7 @@
+Bug status will be marked as a Duplicate when below scenario are meet
+
+when bug is already raised by another tester and if i have raised one more time
+When Bug is taken care of any other User Story
+When Two Bugs are happened due to  issues are happpend due to single component  or  single component change (like adhar card front and KYC image not showing  -Due to DMS id not passsed to BR NET
+-Posidex Error  and Scheme id not passed(Due to scheme id not presented in Loan pack master)
+
