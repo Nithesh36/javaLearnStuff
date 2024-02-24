@@ -9,4 +9,4 @@ how do u schdule a script witout jenkins
 i want to take screenshot and mark 5 input field color red ,two are blue how to do that
 
 
-PDF Releated question -comparsion pdf and Reading PDF
+PDF Releated question -comparsion pdf and Reading PDFs
