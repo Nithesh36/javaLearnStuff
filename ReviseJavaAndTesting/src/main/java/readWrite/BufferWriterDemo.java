@@ -22,7 +22,10 @@ public class BufferWriterDemo {
    bw.write("nites");
    bw.write("\n");
    bw.newLine();
+   bw.newLine();
    bw.write("se");
+   bw.write("den");
+
  
    bw.close();
    if( new BufferedReader(new FileReader("BufferWriterFile.txt")).lines().count()>0) {

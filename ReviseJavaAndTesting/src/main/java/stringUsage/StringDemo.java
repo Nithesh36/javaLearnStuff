@@ -11,10 +11,11 @@ public class StringDemo  {
    
 		String s="              demo    " ;
 		String ws="                  " ;
-		System.out.println(s.toString());
-		System.out.println(s.strip());
-		System.out.println(s.stripLeading());
-		System.out.println(ws.isBlank());/*
+		/*
+		 * System.out.println(s.toString()); System.out.println(s.strip());
+		 * System.out.println(s.stripLeading()); System.out.println(ws.isBlank());
+		 */
+		/*
 		Returns true if the string is empty or contains only white space codepoints,otherwise false.
 
 		*/

@@ -11,7 +11,7 @@ public class TryWithThrows {
 		//we can use try with throws
 		try {
 		String f="dd";
-		throw new IndexOutOfBoundsException("out of range 5");
+		//throw new IndexOutOfBoundsException("out of range 5");
 		//we cant  use throw with try catch because its like a hard assertion
 		//we are directly saying subsequent line will not execute
 		FileReader fd=new FileReader(f);
